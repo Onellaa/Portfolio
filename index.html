@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65fc5d7d4b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><b>O</b>nella. </div>
+                <!-- <img src="images/mee.jpeg" class="logo"> -->
+                <ul id="sidemenue">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenue()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenue()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Developer</p>
+                <h1>Hi, I'm <span>Onella</span> <br>Dias From Sri Lanka 🇱🇰</h1>
+               
+            </div>
+        </div>
+    </div>
+<!-------------------------------------about------------------------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+             <img src="images/pp.jpeg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello, I'm Onella Dias, an ambitious undergraduate with a love for coding and problem-solving. Specializing in Information Technology, I'm eager to contribute my skills and creativity to meaningful projects. Dive into my evolving portfolio and join me on this exciting journey of growth and innovation! 💻🚀 #AspiringDeveloper #UndergraduateInTech</p>
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Leadership</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Software Engineer</span><br>Proficient in Java <i class="fa-brands fa-java"></i><br>JavaScript <i class="fa-brands fa-js"></i><br>C</li>
+                    <li><span>Web development</span><br> HTML <i class="fa-brands fa-html5"></i><br> CSS <i class="fa-brands fa-css3-alt"></i><br> JavaScript <i class="fa-brands fa-js"></i><br>React <i class="fa-brands fa-react"></i><br>Angular<i class="fa-brands fa-angular"></i><br> Node.js <i class="fa-brands fa-node"></i></li>
+                    <li><span>App development</span><br>Building Android/ios apps</li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>(2021-2022)</span><br>Senior Prefect</li>
+                    <li><span>(2019-2022)</span><br>Vice President Red Cross   Society</li>
+                    <li><span>(2018-2019)</span><br> Prefect- St. Joseph Sunday school </li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>School</span><br>Studied at Holy Family Convent Bambalapitiya Colombo-04 </li>
+                    <li><span>2023 - current </span><br>BSC (HONS) in Information Technology specializing in Software engineering (Undergraduate at SLIIT)</li>
+                     <li><span>Other courses</span><br>Software Engineering Master Training Program at Institute of Computer Engineering Technology Panadura Sri Lanka (ICET)</li>
+                </ul>
+            </div>
+            
+          </div>
+       </div>
+      </div>
+   </div>
+   <!---------------------------------------- Services----------------------------------------- -->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <p>Transforming visions into immersive online realities. Blending creativity with precision to shape unique digital identities. Explore the art of possibility in every click. 🚀🎨 #WebDesign #DigitalExperiences #PortfolioShowcase</p>
+                 <a href="#">Learn more</a>
+                 
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Fusing aesthetics with user-centric functionality to redefine digital interactions. Crafting intuitive journeys that captivate and elevate user experiences. Designing tomorrow, today. 🎨💡 #UIDesign #UXD #InnovationInInteraction</p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Elevating user engagement through sleek and purposeful app design. Merging form and function to create seamless digital experiences. Your ideas, beautifully coded. 📱✨ #AppDesign #UserCentric #DigitalInnovation</p>
+                 <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!--------------------------------------------------- portfolio------------------------------------ -->
+ 
+<div id="portfolio">
+ <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png" >
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you the talented people around the world.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+           </div>
+        <div class="work">
+            <img src="images/work-2.png" >
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you the talented people around the world.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+    </div>
+    <a href="#" class="btn ">See more</a>
+ </div>
+</div>
+
+<!-- -----------contact------------------------------ -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>onelladias17@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0701596678</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="images/ONELLA DIAS CV .pdf" download class="btn btn2 ">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Kevin made <i class="fa-solid fa-heart"></i> with by Easy Tutorials </p>
+    </div>
+ </div>
+
+
+   <script>
+     var tablinks =document.getElementsByClassName("tab-links");
+     var tabcontents =document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+
+     }
+   </script>
+
+   <script>
+    var sidemenue = document.getElementById("sidemenue");
+
+    function openmenue(){
+        sidemenue.style.right= "0";
+
+    }
+
+    function closemenue(){
+        sidemenue.style.right= "-200px";
+        
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3Hevtmceo5qmH4b0RrG5wHS_1v3-o2CEvy43HL9bl4X-ozzeEUHWFsHT8k27_JJX6/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Messege sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+ <!-- Add this script tag at the end of your HTML body -->
+<script>
+    const roles = ["Software Engineer", "Web Developer", "UI/UX Designer", "Problem Solver"];
+    const roleElement = document.querySelector(".header-text p");
+  
+    let index = 0;
+  
+    function displayRole() {
+      roleElement.innerHTML = roles[index];
+      roleElement.style.opacity = 0;
+      fadeIn();
+    }
+  
+    function fadeIn() {
+      let opacity = 0;
+  
+      const fadeInInterval = setInterval(() => {
+        if (opacity < 1) {
+          opacity += 0.1;
+          roleElement.style.opacity = opacity;
+        } else {
+          clearInterval(fadeInInterval);
+          setTimeout(fadeOut, 1000); // You can adjust the duration before fading out (1000 milliseconds in this example)
+        }
+      }, 100); // You can adjust the fading speed (100 milliseconds in this example)
+    }
+  
+    function fadeOut() {
+      let opacity = 1;
+  
+      const fadeOutInterval = setInterval(() => {
+        if (opacity > 0) {
+          opacity -= 0.1;
+          roleElement.style.opacity = opacity;
+        } else {
+          clearInterval(fadeOutInterval);
+          index = (index + 1) % roles.length;
+          displayRole();
+        }
+      }, 100); 
+    }
+  
+    
+    window.onload = function () {
+      displayRole();
+    };
+  </script>
+  
+   
+
+</body>
+</html>
